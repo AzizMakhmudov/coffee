@@ -2,8 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Fraunces';
-    font-family: 'Barlow';
     list-style: none;
     text-decoration: none;
 }
@@ -36,6 +34,7 @@
     letter-spacing: 0.923077px;
     color: black;
     opacity: 0.5;
+    font-family: 'Barlow';
 }
 
 .link-header:hover {
