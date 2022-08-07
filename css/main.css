@@ -15,7 +15,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 80px;
     padding-top: 45px;
     margin-bottom: 70px;
 }
@@ -45,3 +44,314 @@
     opacity: 1;
 }
 
+.great-coffee__section {
+    background-image: url(../img/great\ coffee.png);
+    width: 1280px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    border-radius: 10px;
+    padding-left: 86px;
+    padding-top: 117px;
+    margin-bottom: 100px;
+}
+
+.h2-great_coffee {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: white;
+    font-family: 'Fraunces';
+    margin-bottom: 32px;
+}
+
+.p-info_h2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 420px;
+    margin-bottom: 56px;
+}
+
+.create-your-plan {
+    background: #0E8784;
+    border-radius: 6px;
+    padding: 15px 30px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    font-family: 'Fraunces';
+    color: #FEFCF7;
+}
+
+.create-your-plan:hover {
+    background: #66D2CF;
+}
+
+.our-collection__text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 72px;
+    text-align: center;
+    color: #83888F;
+    font-family: 'Fraunces';
+    opacity: 0.5;
+    mix-blend-mode: normal;
+    position: absolute;
+    width: 1280px;
+}
+
+.packages {
+    width: 1110.82px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.img-package {
+    margin-bottom: 71.55px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.first-img {
+    margin-left: 155px;
+}
+
+.h3-package {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+}
+
+.p-package {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    width: 255px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.text-packages {
+    width: 255px;
+    text-align: center;
+}
+
+.first-package {
+    margin-left: 150px;
+    
+}
+
+.first-box__wcu {
+    width: 1280px;
+    height: 577px;
+    background: #2C343E;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 200px;
+}
+
+.second-box__wcu {
+    display: flex;
+    gap: 30px;
+    margin: 0 85px;
+}
+
+.h3-wcu {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    color: #FEFCF7;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 32px;
+}
+
+.h3-info_wcu {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 530px;
+    margin-left: 370px;
+}
+
+.box-info__wcu {
+    background: #0E8784;
+    border-radius: 8px;
+    width: 350px;
+    height: 382px;
+    margin-top: 86px;
+    margin-bottom: 200px;
+}
+
+.h4-wcu {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.info-h4__wcu {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    text-align: center;
+    width: 255px;
+    margin-top: 24px;
+    margin-left: 47px;
+    margin-right: 47px;
+    margin-bottom: 47px;
+}
+
+.text-box-info__wcu {
+    margin-top: 56px;
+}
+
+.image-wcu {
+    margin-top: 72px;
+    margin-left: 135.5px;
+    margin-right: 142.5px;
+}
+
+.tutorial-section {
+    margin-left: 85px;
+}
+
+.hiw {
+    position: absolute;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-top: 400px;
+}
+
+.line {
+    width: 760px;
+    height: 1px;
+    border: 2px solid #FDD6BA;
+    position: absolute;
+    margin-top: 495px;
+}
+
+.three-tutorial {
+    position: absolute;
+    margin-top: 577px;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+
+.number-three {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.h3-info__number {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    width: 200px;
+    margin-top: 38px;
+    margin-bottom: 42px;
+}
+
+.h3-info__number--p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    width: 285px;
+}
+
+.second-cyp {
+    margin-top: 1000px;
+    position: absolute;
+}
+
+.footer {
+    margin-top: 1200px;
+    margin-left: 80px;
+    width: 1230px;
+    height: 120px;
+    background: #2C343E;
+    padding: 30px 0px;
+}
+
+.links-3 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    color: #83888F;
+}
+
+.links-3:hover {
+    color: white;
+}
+
+.list-nav__footer {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    margin-left: 103px;
+}
+
+.contents-footer {
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer {
+    margin-left: 85px;
+}
+
+.images-boxes {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: 350px;
+}
