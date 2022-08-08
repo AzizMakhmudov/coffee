@@ -65,6 +65,7 @@
     color: white;
     font-family: 'Fraunces';
     margin-bottom: 32px;
+    width: 550px;
 }
 
 .p-info_h2 {
@@ -109,6 +110,7 @@
     mix-blend-mode: normal;
     position: absolute;
     width: 1280px;
+    background-image: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
 }
 
 .packages {
@@ -155,8 +157,7 @@
 }
 
 .first-package {
-    margin-left: 150px;
-    
+    margin-left: 150px;    
 }
 
 .first-box__wcu {
@@ -258,14 +259,6 @@
     margin-top: 400px;
 }
 
-.line {
-    width: 760px;
-    height: 1px;
-    border: 2px solid #FDD6BA;
-    position: absolute;
-    margin-top: 495px;
-}
-
 .three-tutorial {
     position: absolute;
     margin-top: 577px;
@@ -281,6 +274,31 @@
     font-size: 72px;
     line-height: 72px;
     color: #FDD6BA;
+}
+
+.line-circle {
+    width: 760px;
+    height: 1px;
+    border: 2px solid #FDD6BA;
+    position: absolute;
+    bottom: -2000px;
+    margin-bottom: 30px;
+}
+
+.circle {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+    position: relative;
+    top: -15px;
+}
+
+.circle-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .h3-info__number {
