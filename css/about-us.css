@@ -10,3 +10,41 @@
     max-width: 1280px;
     margin: 0 auto;
 }
+
+.header-box {
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.list-header {
+    display: flex;
+    margin-top: 5px;
+    gap: 33px;
+}
+
+.header-link {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    color: #83888F;
+}
+
+.header-link:hover {
+    color: black;
+}
+
+.about-us__link {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    color: black;
+}
