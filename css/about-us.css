@@ -48,3 +48,32 @@
     letter-spacing: 0.923077px;
     color: black;
 }
+
+.blockname__aboutus--info {
+    background-image: url(../img/about-us-img.jpg);
+    width: 1280px;
+    height: 450px;
+    border-radius: 10px;
+    padding-top: 137px;
+    padding-left: 85px;
+}
+
+.blockname__h3--titles {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 24px;
+}
+
+.blockname__p--titles {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    width: 445px;
+}
