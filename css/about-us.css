@@ -134,3 +134,90 @@
     margin-top: -100px;
     border-radius: 8px;
 }
+
+.blockname-oh__text {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-left: 80px;
+}
+
+.blockname-country__section {
+    margin-left: 80px;
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 168px;
+}
+
+.img-country {
+    margin-bottom: 46px;
+}
+
+.blockname__country--title {
+    margin-bottom: 24px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.h3__country--info {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;   
+    color: #333D4B;
+}
+
+.blockname__footer {
+    width: 1280px;
+    height: 120px;
+    background: #2C343E;
+    padding-top: 47px;
+    padding-left: 85px;
+}
+
+.link_footer {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    color: #83888F;
+}
+
+.footer-ul__list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-left: 103px;
+}
+
+.link_footer:hover {
+    color: white;
+}
+
+.about--us__link {
+    color: white;
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+}
+
+.footer__image--box {
+    margin-left: 370px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
