@@ -46,6 +46,8 @@
     background-image: url(../img/Cap.jpg);
     width: 1280px;
     height: 450px;
+    padding-top: 134px;
+    margin-bottom:  151px;
 }
 
 .cap-h2 {
@@ -66,4 +68,93 @@
     color: #FEFCF7;
     mix-blend-mode: normal;
     opacity: 0.8;
+    margin-top: 32px;
+    width: 445px;
+}
+
+.text-info__cap {
+    padding-left: 86px;
+}
+
+.three-info {
+    background: #2C343E;
+    width: 1280px;
+    height: 653px;
+    border-radius: 10px;
+    padding-left: 85px;
+}
+
+.line-box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 106px;
+}
+
+.line {
+    background-color: #FDD6BA;
+    width: 760px;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circle {
+    border: 2px solid #0E8784;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    position: relative;
+    left: 15px;
+}
+
+.first-circle {
+    left: -15px;
+}
+
+.mid-circle {
+    left: -1px;
+}
+
+.three-text__box {
+    padding-top: 189px;
+    display: flex;
+    align-items: center;
+    gap: 105px;
+}
+
+.three-numbers {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin-bottom: 38px;
+}
+
+.three-h3__title--number {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FEFCF7;
+    margin-bottom: 42px;
+    width: 255px;
+}
+
+.p-info__three--box {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    width: 275px;
+}
+
+.first-box__info {
+    margin-left: -15px;
 }
