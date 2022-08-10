@@ -41,3 +41,29 @@
 .blockname-cpy__header {
     color: black;
 }
+
+.cap-box {
+    background-image: url(../img/Cap.jpg);
+    width: 1280px;
+    height: 450px;
+}
+
+.cap-h2 {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.title-h2__cap {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;    
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
