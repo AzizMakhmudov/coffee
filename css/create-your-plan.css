@@ -10,3 +10,34 @@
     max-width: 1280px;
     margin: 0 auto;
 }
+
+.ul-list__header {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.box-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.link-header {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    color: #83888F;
+}
+
+.link-header:hover {
+    color: black;
+}
+
+.blockname-cpy__header {
+    color: black;
+}
