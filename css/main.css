@@ -294,10 +294,6 @@
     top: -15px;
 }
 
-.create-your-plan:disabled {
-    background: #E2DEDB;
-}
-
 .circle-box {
     display: flex;
     align-items: center;
