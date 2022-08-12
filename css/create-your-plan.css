@@ -159,3 +159,157 @@
 .first-box__info {
     margin-left: -15px;
 }
+
+.five-numbers {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    opacity: 0.5;
+}
+
+.first-number {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0E8784;
+}
+
+.title__five--numbers {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    opacity: 0.5;
+}
+
+.line-choice__box {
+    width: 225px;
+    height: 1px;
+    background: #83888F;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    display: block;
+    margin: 24px 0px;
+}
+
+.first-number__choice--box {
+    opacity: 1;
+}
+
+.first-title {
+    opacity: 1;
+}
+
+.choice-box {
+    margin-left: 85px;
+}
+
+.title-input {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+    margin-bottom: 56px;
+}
+
+.choice__style--section {
+    display: flex;
+    gap: 125px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    border: 0;
+    padding: 0;
+    margin: -1px;
+}
+
+.checked-box {
+    position: relative;
+}
+
+.form-input__choice {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.label-radio__box {
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 88px;
+    padding-bottom: 84px;
+    padding-right: 28px;
+    padding-left: 28px;
+    background: #F4F1EB;
+    border-radius: 8px;
+}
+
+.first-text__label {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    position: absolute;
+    top: -1px;
+    padding-top: 32px;
+}
+
+.second-text__label {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    width: 172px;
+    position: relative;
+    top: -10px;
+}
+
+.label-radio__box:hover {
+    background: #FDD6BA;
+    cursor: pointer;
+}
+
+.checked-box input[type="radio"]:checked + .label-radio__box {
+    background: #0E8784;
+    color: #FFF;
+}
+
+.checked-box input[type="radio"]:checked + .label-radio__box span {
+    color: white;
+}
+
+.link-five {
+    display: flex;
+    align-items: center;
+    gap: 23.5px;
+}
+
+.title-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrow-top {
+    margin-top: -50px;
+}

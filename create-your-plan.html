@@ -21,6 +21,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
+    <!-- header start -->
     <header>
       <div class="container">
         <div class="box-header">
@@ -51,8 +52,11 @@
         </div>
       </div>
     </header>
+    <!-- header end -->
+    <!-- main start -->
     <main>
       <div class="container">
+        <!-- cap box start -->
         <div class="cap-box">
           <div class="text-info__cap">
             <h2 class="cap-h2">Create a plan</h2>
@@ -63,6 +67,8 @@
             </p>
           </div>
         </div>
+        <!-- cap box end -->
+        <!-- three info start -->
         <div class="three-info">
           <div class="line-box">
             <div class="line">
@@ -101,13 +107,76 @@
             </div>
           </div>
         </div>
+        <!-- three info end -->
+        <!-- choice style section start -->
         <section class="choice__style--section">
             <div class="choice-box">
               <div class="text-box__choice--degree">
-                <h2 class="five-numbers"></h2>
+                <a class="link-five" href="#">
+                  <h2 class="five-numbers first-number">01</h2>
+                  <h3 class="title__five--numbers">Preferences</h3>
+                </a>
+              </div>
+              <span class="line-choice__box"></span>
+              <div class="text-box__choice--degree">
+                <a class="link-five" href="#">
+                  <h2 class="five-numbers">02</h2>
+                  <h3 class="title__five--numbers">Bean Type</h3>
+                </a>
+              </div>
+              <span class="line-choice__box"></span>
+              <a class="link-five" href="#">
+                <h2 class="five-numbers">03</h2>
+                <h3 class="title__five--numbers">Quantity</h3>
+              </a>
+              <div class="text-box__choice--degree">
+              </div>
+              <span class="line-choice__box"></span>
+              <div class="text-box__choice--degree">
+                <a class="link-five" href="#">
+                  <h2 class="five-numbers">04</h2>
+                  <h3 class="title__five--numbers">Grind Option</h3>
+                </a>
+              </div>
+              <span class="line-choice__box"></span>
+              <div class="text-box__choice--degree">
+                <a class="link-five" href="#">
+                  <h2 class="five-numbers first-number__choice--box">05</h2>
+                  <h3 class="title__five--numbers first-title">Deliveries</h3>
+                </a>
+              </div>
+            </div>
+            <div class="input-choice">
+              <div class="title-box">
+                <h3 class="title-input">How do you drink your coffee?</h3>
+                <a class="arrow-top" href="#">
+                  <img src="./img/arrow top.svg" alt="arrow top">
+                </a>
+              </div>
+              <div class="three-input">
+                <div class="checked-box">
+                    <form class="form-input__choice" action="/" method="post">
+                      <input name="input" class="visually-hidden" type="radio" id="Capsule">
+                      <label class="label-radio__box" for="Capsule">
+                          <span class="first-text__label">Capsule</span>
+                          <span class="second-text__label">Compatible with Nespresso systems and similar brewers</span>
+                      </label>
+                      <input name="input" class="visually-hidden" type="radio" id="Filter">
+                      <label class="label-radio__box" for="Filter">
+                          <span class="first-text__label">Filter</span>
+                          <span class="second-text__label">For pour over or drip methods like Aeropress, Chemex, and V60</span>
+                      </label>
+                      <input name="input" class="visually-hidden" type="radio" id="Espresso">
+                      <label class="label-radio__box" for="Espresso">
+                          <span class="first-text__label">Espresso</span>
+                          <span class="second-text__label">Dense and finely ground beans for an intense, flavorful experience</span>
+                      </label>
+                    </form>
+                </div>
               </div>
             </div>
         </section>
+        <!-- choice style section end -->
       </div>
     </main>
   </body>
