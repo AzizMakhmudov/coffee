@@ -313,3 +313,74 @@
 .arrow-top {
     margin-top: -50px;
 }
+
+.three-input {
+    margin-bottom: 88px;
+}
+
+.three__input {
+    margin-left: 430px;
+    margin-bottom: 88px;
+}
+
+.arrow__top {
+    margin-left: -135px;
+}
+
+.box-info__recipe {
+    background: #2C343E;
+    width: 730px;
+    height: 208px;
+    margin-left: 430px;
+    padding-left: 64px;
+    padding-top: 27px;
+    margin-bottom: 40px;
+}
+
+.order-summary {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 8px;
+}
+
+.recipe-text {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.information-recipe {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #0E8784;
+}
+
+.create__my--plan {
+    background: #0E8784;
+    border-radius: 6px;
+    padding: 15px 35.5px;
+    cursor: pointer;
+    color: #FEFCF7;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    margin-left: 950px;
+    margin-bottom: 168px;
+}
