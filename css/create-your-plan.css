@@ -431,3 +431,7 @@
     margin-left: 369.1px;
     margin-right: 85px;
 }
+
+.create__my--plan:hover {
+    background: #66D2CF;
+}
